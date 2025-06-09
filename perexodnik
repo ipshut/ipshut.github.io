@@ -1,0 +1,52 @@
+# ipshut.github.io
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>shut</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .button { 
+      padding: 16px 32px;
+      font-size: 20px;
+      background-color: #0088cc;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <h1>shut</h1>
+  <p>новичок в сфере программирования!</p>
+  <a class="button" href="https://t.me/ipshut" target="_blank">CEO</a>
+</body>
+</html>
+
